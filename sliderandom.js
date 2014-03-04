@@ -2,7 +2,7 @@ var canvas = document.getElementById('puzzle'),
     context = canvas.getContext('2d'),
     img = new Image();
 
-img.src = 'dimetrodon.jpg';
+img.src = 'park.jpg';
 img.addEventListener('load', drawTiles, false);
 
 canvas.addEventListener("dragenter", function(e){stopDefaults(e);}, true);
